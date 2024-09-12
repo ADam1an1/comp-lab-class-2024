@@ -11,6 +11,7 @@
 - set up a link to your personal class folder by running `ln -s /scratch/work/courses/CHEM-GA-2671-2024fa/students/$USER $HOME/comp-lab-class`
 - Now you can always get to your personal folder when you log in by typing `cd ~/comp-lab-class`
 - Run the following command to set up the class python environment: `bash /scratch/work/courses/CHEM-GA-2671-2024fa/jupyter-setup/install_kernel.sh`, now this should be available when you start jupyter notebooks from ood
+- Go to your class directory (`cd ~/comp-lab-class`) and clone your github repository: (`git clone https://github.com/YOUR-USER-NAME/comp-lab-class-2024.git`)
 
 ## Get some practice with the command line
 - Brush up on command line. Do Command line, text-fu, and advanced-text fu (VIM part) on https://linuxjourney.com/
