@@ -7,4 +7,4 @@ I set the duration to 2500000 for a total trajectory time of
 
 Using these mdp files and the same adp files as for the 15ns
 trajectory I used the grompp command to generate the adp.tpr
-files in each directory.   
+files in each directory to run the remd simulation.   
