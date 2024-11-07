@@ -1,0 +1,272 @@
+
+Host: cm013.hpc.nyu.edu
+
+Timers On : Thu Nov  7 14:39:37 2024
+Timers Off: Thu Nov  7 14:39:37 2024
+
+Wall Time:        0.36 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: cm013.hpc.nyu.edu
+
+Timers On : Thu Nov  7 14:15:27 2024
+Timers Off: Thu Nov  7 14:58:43 2024
+
+Wall Time:     2595.63 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.050u      0.050s      0.160w      8 calls
+Libint2ERI::Libint2ERI              :     17.867u      1.400s     11.803w    611 calls
+DFH: initialize()                   :      0.167u      0.017s      0.124w      8 calls
+DFH: AO Construction                :      0.067u      0.000s      0.025w      8 calls
+DFH: AO-Met. Contraction            :      0.000u      0.000s      0.003w      8 calls
+HF: Form core H                     :      0.233u      0.067s      0.327w    144 calls
+HF: Form S/X                        :      0.100u      0.000s      0.049w    144 calls
+HF: Guess                           :      8.967u      2.033s      6.620w    144 calls
+SAD Guess                           :      8.583u      2.033s      6.326w    142 calls
+HF: Form G                          :      5.583u      0.017s      3.387w   1010 calls
+JK: D                               :      0.017u      0.000s      0.010w   1036 calls
+JK: USO2AO                          :      0.083u      0.000s      0.055w   1036 calls
+JK: JK                              :      5.450u      0.017s      3.310w   1036 calls
+DFH: compute_JK()                   :      0.033u      0.000s      0.032w     83 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w     83 calls
+DFH: compute_J                      :      0.000u      0.000s      0.008w     83 calls
+DFH: compute_K                      :      0.033u      0.000s      0.022w     83 calls
+JK: J                               :      0.400u      0.000s      0.272w    953 calls
+JK: J1                              :      0.167u      0.000s      0.135w   1050 calls
+JK: J2                              :      0.233u      0.000s      0.127w   1050 calls
+JK: K                               :      4.833u      0.000s      2.919w    953 calls
+JK: K1                              :      4.300u      0.000s      2.496w   1063 calls
+JK: K2                              :      0.533u      0.000s      0.418w   1050 calls
+JK: AO2USO                          :      0.050u      0.000s      0.028w   1036 calls
+HF: Form F                          :      0.017u      0.000s      0.010w   1010 calls
+HF: Form D                          :      0.017u      0.000s      0.008w   1010 calls
+HF: DIIS                            :      4.400u      0.267s      4.046w    868 calls
+HF: Form C                          :      0.667u      0.017s      0.449w    868 calls
+Grad: V T Perturb                   :      0.033u      0.000s      0.002w      5 calls
+Grad: S                             :      0.000u      0.000s      0.001w      5 calls
+Grad: JK                            :      0.250u      0.000s      0.472w      5 calls
+JKGrad: Amn                         :      0.050u      0.000s      0.040w      5 calls
+JKGrad: Awmn                        :      0.000u      0.000s      0.000w      5 calls
+JKGrad: AB                          :      0.067u      0.000s      0.030w      5 calls
+JKGrad: UV                          :      0.000u      0.000s      0.001w      5 calls
+JKGrad: ABx                         :      0.017u      0.000s      0.093w      5 calls
+JKGrad: Amnx                        :      0.117u      0.000s      0.267w      5 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      5 calls
+Hess: XC                            :      0.000u      0.000s      0.000w      2 calls
+Hess: V                             :      0.017u      0.000s      0.136w      2 calls
+Hess: T                             :      0.000u      0.000s      0.069w      2 calls
+Hess: S                             :      0.000u      0.000s      0.001w      2 calls
+Hess: JK                            :      0.567u      0.017s      1.050w      2 calls
+SAPT: Dimer SCF                     :      3.533u      0.117s      2.354w      2 calls
+JK: (A|mn)                          :      5.150u      0.050s      3.093w    134 calls
+JK: (A|Q)^-1/2                      :      2.517u      0.017s      1.511w    134 calls
+JK: (Q|mn)                          :      0.550u      0.017s      0.304w    134 calls
+SAPT: Monomer A SCF                 :      2.450u      0.067s      1.513w      2 calls
+SAPT: Monomer B SCF                 :      2.483u      0.100s      1.571w      2 calls
+OO DF Integrals                     :      1.067u      0.050s      0.663w      2 calls
+Elst10                              :      0.000u      0.000s      0.000w      2 calls
+Exch10                              :      0.000u      0.000s      0.083w      2 calls
+Exch10 S^2                          :      0.000u      0.000s      0.002w      2 calls
+SAPT0: DF Integrals                 :      1.133u      0.200s      0.802w      2 calls
+SAPT0: W Integrals                  :      0.000u      0.000s      0.003w      2 calls
+SAPT0: Ind20                        :      0.400u      0.167s      0.338w      2 calls
+SAPT0: Exch-Ind20                   :      0.033u      0.000s      0.018w      2 calls
+SAPT0: Exch-Disp20 N^5              :      0.067u      0.050s      0.073w      2 calls
+SAPT0: Exch-Disp20 N^4              :      0.433u      0.100s      0.322w      2 calls
+ccenergy                            :     17.467u     19.517s     26.111w    129 calls
+F build                             :      1.233u      0.967s      1.348w   1273 calls
+Wmbej build                         :      2.400u      1.900s      2.616w   1273 calls
+C->Wmbej                            :      0.167u      0.067s      0.098w   1273 calls
+F->Wmbej                            :      1.167u      1.450s      1.561w   1273 calls
+E->Wmbej                            :      0.400u      0.217s      0.359w   1273 calls
+X->Wmbej                            :      0.433u      0.133s      0.466w   1273 calls
+Z                                   :      0.167u      0.117s      0.204w   1273 calls
+T2 Build                            :      5.450u      6.800s      7.699w   1273 calls
+BT2                                 :      2.667u      4.583s      4.721w   1273 calls
+ABCD:new                            :      2.667u      4.583s      4.718w   1273 calls
+ABCD:S                              :      0.417u      0.167s      0.406w   1273 calls
+ABCD:A                              :      0.250u      0.283s      0.393w   1273 calls
+ABCD:axpy                           :      1.767u      3.983s      3.682w   1273 calls
+FT2                                 :      0.217u      0.150s      0.275w   1273 calls
+WmbejT2                             :      0.483u      0.483s      0.665w   1273 calls
+CT2                                 :      0.983u      0.950s      1.170w   1273 calls
+cctriples                           :      8.083u      1.633s      6.151w    129 calls
+ET_RHF                              :      7.500u      0.850s      5.013w    129 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.050u      0.050s      0.160w      8 calls
+| Libint2ERI::Libint2ERI            :      0.033u      0.050s      0.140w      8 calls
+DFH: initialize()                   :      0.167u      0.017s      0.124w      8 calls
+| Libint2ERI::Libint2ERI            :      0.033u      0.017s      0.028w     16 calls
+| DFH: AO Construction              :      0.067u      0.000s      0.025w      8 calls
+| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.003w      8 calls
+HF: Form core H                     :      0.200u      0.067s      0.282w    138 calls
+HF: Form S/X                        :      0.033u      0.000s      0.030w    138 calls
+HF: Guess                           :      8.600u      2.033s      6.359w    138 calls
+| SAD Guess                         :      8.217u      2.033s      6.077w    136 calls
+HF: Form G                          :      2.917u      0.000s      1.750w    948 calls
+| JK: D                             :      0.000u      0.000s      0.008w    948 calls
+| JK: USO2AO                        :      0.083u      0.000s      0.054w    948 calls
+| JK: JK                            :      2.767u      0.000s      1.637w    948 calls
+| | DFH: compute_JK()               :      0.017u      0.000s      0.013w     70 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     70 calls
+| | | DFH: compute_J                :      0.000u      0.000s      0.004w     70 calls
+| | | DFH: compute_K                :      0.017u      0.000s      0.008w     70 calls
+| | JK: J                           :      0.267u      0.000s      0.149w    878 calls
+| | | JK: J1                        :      0.100u      0.000s      0.074w    878 calls
+| | | JK: J2                        :      0.167u      0.000s      0.067w    878 calls
+| | JK: K                           :      2.350u      0.000s      1.413w    878 calls
+| | | JK: K1                        :      1.983u      0.000s      1.130w    878 calls
+| | | JK: K2                        :      0.367u      0.000s      0.279w    878 calls
+| JK: AO2USO                        :      0.050u      0.000s      0.027w    948 calls
+HF: Form F                          :      0.017u      0.000s      0.009w    948 calls
+HF: Form D                          :      0.017u      0.000s      0.006w    948 calls
+HF: DIIS                            :      3.933u      0.217s      3.801w    812 calls
+HF: Form C                          :      0.533u      0.017s      0.355w    812 calls
+Grad: V T Perturb                   :      0.033u      0.000s      0.002w      5 calls
+Grad: S                             :      0.000u      0.000s      0.001w      5 calls
+Grad: JK                            :      0.250u      0.000s      0.472w      5 calls
+| JKGrad: Amn                       :      0.050u      0.000s      0.040w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.033u      0.000s      0.013w      5 calls
+| JKGrad: Awmn                      :      0.000u      0.000s      0.000w      5 calls
+| JKGrad: AB                        :      0.067u      0.000s      0.030w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.000u      0.000s      0.000w      5 calls
+| JKGrad: UV                        :      0.000u      0.000s      0.001w      5 calls
+| JKGrad: ABx                       :      0.017u      0.000s      0.093w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.000u      0.000s      0.000w      5 calls
+| JKGrad: Amnx                      :      0.117u      0.000s      0.267w      5 calls
+| | Libint2ERI::Libint2ERI          :      0.033u      0.000s      0.015w      5 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      5 calls
+Hess: XC                            :      0.000u      0.000s      0.000w      2 calls
+Hess: V                             :      0.017u      0.000s      0.136w      2 calls
+Hess: T                             :      0.000u      0.000s      0.069w      2 calls
+Hess: S                             :      0.000u      0.000s      0.001w      2 calls
+Hess: JK                            :      0.567u      0.017s      1.050w      2 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.009w      6 calls
+Libint2ERI::Libint2ERI              :     16.950u      1.317s     11.138w    399 calls
+JK: D                               :      0.000u      0.000s      0.000w     26 calls
+JK: USO2AO                          :      0.000u      0.000s      0.001w     26 calls
+JK: JK                              :      0.050u      0.000s      0.043w     26 calls
+| DFH: compute_JK()                 :      0.017u      0.000s      0.019w     13 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w     13 calls
+| | DFH: compute_J                  :      0.000u      0.000s      0.004w     13 calls
+| | DFH: compute_K                  :      0.017u      0.000s      0.015w     13 calls
+| JK: J                             :      0.000u      0.000s      0.002w     13 calls
+| | JK: J1                          :      0.000u      0.000s      0.001w    110 calls
+| | JK: J2                          :      0.000u      0.000s      0.001w    110 calls
+| JK: K                             :      0.033u      0.000s      0.022w     13 calls
+| | JK: K1                          :      0.033u      0.000s      0.019w    123 calls
+| | JK: K2                          :      0.000u      0.000s      0.003w    110 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     26 calls
+SAPT: Dimer SCF                     :      3.533u      0.117s      2.354w      2 calls
+| Libint2ERI::Libint2ERI            :      0.150u      0.000s      0.088w      4 calls
+| JK: (A|mn)                        :      0.600u      0.000s      0.361w      2 calls
+| JK: (A|Q)^-1/2                    :      0.133u      0.000s      0.086w      2 calls
+| | Libint2ERI::Libint2ERI          :      0.000u      0.000s      0.000w      2 calls
+| JK: (Q|mn)                        :      0.133u      0.017s      0.077w      2 calls
+| HF: Form core H                   :      0.000u      0.000s      0.016w      2 calls
+| HF: Form S/X                      :      0.033u      0.000s      0.012w      2 calls
+| HF: Guess                         :      0.100u      0.000s      0.084w      2 calls
+| | SAD Guess                       :      0.100u      0.000s      0.080w      2 calls
+| HF: Form G                        :      1.017u      0.000s      0.617w     22 calls
+| | JK: D                           :      0.017u      0.000s      0.001w     22 calls
+| | JK: USO2AO                      :      0.000u      0.000s      0.000w     22 calls
+| | JK: JK                          :      1.000u      0.000s      0.614w     22 calls
+| | | JK: J                         :      0.067u      0.000s      0.042w     22 calls
+| | | | JK: J1                      :      0.050u      0.000s      0.021w     22 calls
+| | | | JK: J2                      :      0.017u      0.000s      0.021w     22 calls
+| | | JK: K                         :      0.917u      0.000s      0.561w     22 calls
+| | | | JK: K1                      :      0.833u      0.000s      0.490w     22 calls
+| | | | JK: K2                      :      0.083u      0.000s      0.071w     22 calls
+| | JK: AO2USO                      :      0.000u      0.000s      0.000w     22 calls
+| HF: Form F                        :      0.000u      0.000s      0.001w     22 calls
+| HF: Form D                        :      0.000u      0.000s      0.000w     22 calls
+| HF: DIIS                          :      0.167u      0.017s      0.087w     20 calls
+| HF: Form C                        :      0.033u      0.000s      0.034w     20 calls
+SAPT: Monomer A SCF                 :      2.450u      0.067s      1.513w      2 calls
+| Libint2ERI::Libint2ERI            :      0.150u      0.000s      0.089w      4 calls
+| HF: Form core H                   :      0.033u      0.000s      0.014w      2 calls
+| HF: Form S/X                      :      0.000u      0.000s      0.003w      2 calls
+| HF: Guess                         :      0.133u      0.000s      0.086w      2 calls
+| | SAD Guess                       :      0.133u      0.000s      0.082w      2 calls
+| HF: Form G                        :      0.817u      0.000s      0.495w     20 calls
+| | JK: D                           :      0.000u      0.000s      0.000w     20 calls
+| | JK: USO2AO                      :      0.000u      0.000s      0.000w     20 calls
+| | JK: JK                          :      0.800u      0.000s      0.493w     20 calls
+| | | JK: J                         :      0.033u      0.000s      0.037w     20 calls
+| | | | JK: J1                      :      0.000u      0.000s      0.018w     20 calls
+| | | | JK: J2                      :      0.033u      0.000s      0.018w     20 calls
+| | | JK: K                         :      0.750u      0.000s      0.449w     20 calls
+| | | | JK: K1                      :      0.700u      0.000s      0.414w     20 calls
+| | | | JK: K2                      :      0.050u      0.000s      0.035w     20 calls
+| | JK: AO2USO                      :      0.000u      0.000s      0.000w     20 calls
+| HF: Form F                        :      0.000u      0.000s      0.001w     20 calls
+| HF: Form D                        :      0.000u      0.000s      0.000w     20 calls
+| HF: DIIS                          :      0.117u      0.033s      0.078w     18 calls
+| HF: Form C                        :      0.083u      0.000s      0.030w     18 calls
+SAPT: Monomer B SCF                 :      2.483u      0.100s      1.571w      2 calls
+| Libint2ERI::Libint2ERI            :      0.150u      0.000s      0.091w      4 calls
+| HF: Form core H                   :      0.000u      0.000s      0.014w      2 calls
+| HF: Form S/X                      :      0.033u      0.000s      0.003w      2 calls
+| HF: Guess                         :      0.133u      0.000s      0.090w      2 calls
+| | SAD Guess                       :      0.133u      0.000s      0.086w      2 calls
+| HF: Form G                        :      0.833u      0.017s      0.525w     20 calls
+| | JK: D                           :      0.000u      0.000s      0.000w     20 calls
+| | JK: USO2AO                      :      0.000u      0.000s      0.000w     20 calls
+| | JK: JK                          :      0.833u      0.017s      0.523w     20 calls
+| | | JK: J                         :      0.033u      0.000s      0.042w     20 calls
+| | | | JK: J1                      :      0.017u      0.000s      0.021w     20 calls
+| | | | JK: J2                      :      0.017u      0.000s      0.020w     20 calls
+| | | JK: K                         :      0.783u      0.000s      0.473w     20 calls
+| | | | JK: K1                      :      0.750u      0.000s      0.443w     20 calls
+| | | | JK: K2                      :      0.033u      0.000s      0.031w     20 calls
+| | JK: AO2USO                      :      0.000u      0.000s      0.000w     20 calls
+| HF: Form F                        :      0.000u      0.000s      0.001w     20 calls
+| HF: Form D                        :      0.000u      0.000s      0.000w     20 calls
+| HF: DIIS                          :      0.183u      0.000s      0.080w     18 calls
+| HF: Form C                        :      0.017u      0.000s      0.030w     18 calls
+OO DF Integrals                     :      1.067u      0.050s      0.663w      2 calls
+| Libint2ERI::Libint2ERI            :      0.150u      0.017s      0.095w      8 calls
+Elst10                              :      0.000u      0.000s      0.000w      2 calls
+Exch10                              :      0.000u      0.000s      0.083w      2 calls
+Exch10 S^2                          :      0.000u      0.000s      0.002w      2 calls
+SAPT0: DF Integrals                 :      1.133u      0.200s      0.802w      2 calls
+| Libint2ERI::Libint2ERI            :      0.167u      0.000s      0.091w      8 calls
+SAPT0: W Integrals                  :      0.000u      0.000s      0.003w      2 calls
+SAPT0: Ind20                        :      0.400u      0.167s      0.338w      2 calls
+SAPT0: Exch-Ind20                   :      0.033u      0.000s      0.018w      2 calls
+SAPT0: Exch-Disp20 N^5              :      0.067u      0.050s      0.073w      2 calls
+SAPT0: Exch-Disp20 N^4              :      0.433u      0.100s      0.322w      2 calls
+JK: (A|mn)                          :      4.550u      0.050s      2.732w    132 calls
+JK: (A|Q)^-1/2                      :      2.383u      0.017s      1.425w    132 calls
+| Libint2ERI::Libint2ERI            :      0.017u      0.000s      0.006w    132 calls
+JK: (Q|mn)                          :      0.417u      0.000s      0.228w    132 calls
+ccenergy                            :     17.467u     19.517s     26.111w    129 calls
+| F build                           :      1.233u      0.967s      1.348w   1273 calls
+| Wmbej build                       :      2.400u      1.900s      2.616w   1273 calls
+| | C->Wmbej                        :      0.167u      0.067s      0.098w   1273 calls
+| | F->Wmbej                        :      1.167u      1.450s      1.561w   1273 calls
+| | E->Wmbej                        :      0.400u      0.217s      0.359w   1273 calls
+| | X->Wmbej                        :      0.433u      0.133s      0.466w   1273 calls
+| Z                                 :      0.167u      0.117s      0.204w   1273 calls
+| T2 Build                          :      5.450u      6.800s      7.699w   1273 calls
+| | BT2                             :      2.667u      4.583s      4.721w   1273 calls
+| | | ABCD:new                      :      2.667u      4.583s      4.718w   1273 calls
+| | | | ABCD:S                      :      0.417u      0.167s      0.406w   1273 calls
+| | | | ABCD:A                      :      0.250u      0.283s      0.393w   1273 calls
+| | | | ABCD:axpy                   :      1.767u      3.983s      3.682w   1273 calls
+| | FT2                             :      0.217u      0.150s      0.275w   1273 calls
+| | WmbejT2                         :      0.483u      0.483s      0.665w   1273 calls
+| | CT2                             :      0.983u      0.950s      1.170w   1273 calls
+cctriples                           :      8.083u      1.633s      6.151w    129 calls
+| ET_RHF                            :      7.500u      0.850s      5.013w    129 calls
+
+**************************************************************************************
